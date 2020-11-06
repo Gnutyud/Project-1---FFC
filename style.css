@@ -1,0 +1,131 @@
+        html {
+            font-size: 62.5%;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+        
+        body {
+            background-color: white;
+            color: #333333;
+            font-family: "poppins", sans-serif;
+            line-height: 1.5;
+        }
+        
+        a:active {
+            color: #74638f;
+        }
+        
+        a:hover {
+            color: tomato;
+        }
+        
+        #main {
+            max-width: 129rem;
+            margin: 0 auto;
+            background-color: #eeeeee;
+            border-radius: 1rem;
+        }
+        
+        #title {
+            font-size: 4rem;
+            text-align: center;
+            font-weight: 700;
+            padding-top: 6rem;
+            padding-bottom: 3rem;
+        }
+        
+        #main p,
+        #img-caption {
+            font-size: 1.4rem;
+            text-align: center;
+            font-weight: 300;
+            padding-bottom: 2rem;
+            padding-top: 2rem;
+        }
+        
+        #img-caption {
+            margin: auto;
+        }
+        
+        @media (max-width: 46rem) {
+            #img-caption {
+                font-size: 1.4rem;
+            }
+        }
+        
+        #img-div {
+            width: 126rem;
+            height: auto;
+            background-color: white;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        @media (max-width: 46rem) {
+            #img-div {
+                margin: 0 auto;
+            }
+        }
+        
+        #image {
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+            /* object-fit: cover; */
+        }
+        
+        #tribute-info {
+            max-width: 56rem;
+            margin: 6rem auto;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        .info-list {
+            padding-top: 6rem;
+            list-style: outside;
+        }
+        
+        .info-list li {
+            font-size: 1.4rem;
+            font-weight: 400;
+            padding-bottom: 3rem;
+        }
+        
+        .info-list li strong {
+            font-weight: bold;
+        }
+        
+        .quote {
+            font-size: 1.4rem;
+            font-style: italic;
+            padding-top: 3rem;
+            text-align: left;
+        }
+        
+        .footer {
+            margin-top: 6rem;
+            padding-bottom: 3rem;
+        }
+        
+        @media (max-width: 46rem) {
+            #main {
+                margin: 0;
+            }
+            h1 {
+                font-size: 3.5rem;
+                line-height: 1.2;
+            }
+        }
